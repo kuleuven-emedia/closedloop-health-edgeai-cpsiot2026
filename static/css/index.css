@@ -663,6 +663,14 @@ code {
   .content.has-text-justified {
     font-size: 1rem;
   }
+
+  .column.is-one-fifth.valign {
+    width: 50%;
+  }
+
+  .column.is-one-fifth.valign img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -821,6 +829,10 @@ a:focus {
 /* Section with organizer details */
 .column.valign {
   align-content: center;
+}
+
+.valign img {
+  vertical-align: middle;
 }
 
 a {
